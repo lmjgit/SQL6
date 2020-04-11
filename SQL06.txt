@@ -1,0 +1,38 @@
+信息系统与数据库技术练习6答题卡
+
+班级：     信管一班
+姓名：     李明杰
+学号：     20190307130
+
+注：请将答案放置在序号下方。*/
+
+（一）
+1. CREATE DATABASE  OnlineShop
+
+2. USE OnlineShop 
+
+3.
+Cid int PRIMARY KEY ,
+Card CHAR (18) NOT NULL,
+Cname NVARCHAR(3)NOT NULL,
+RegDate DATETIME NOT NULL,
+Meanvalue numeric(12,2)
+
+4.
+Bid CHAR(4) PRIMARY KEY ,
+Bname Varchar(20) NOT NULL,
+Author Varchar(15),
+Publisher Varchar(30),
+PublisherDate DATETIME,
+Price MONEY,
+Discount DECIMAL(3,2)
+5.
+USE Master
+
+
+6.
+EXEC sp_helpdb OnlineShop
+
+7.
+DROP DATABASE OnlineShop
+
